@@ -14,23 +14,22 @@ html, body{
 }
 
 body{
-
+    
     background: url(pacote-d013/imagens/fundo-madeira.jpg) no-repeat;
     background-size: cover;
     background-attachment: fixed;
 }
 main{
-    position: relative;
+    position: fixed;
     height: 100vh;
 
 }
 
 section#iphone{
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, 50%);
-
+    position: fixed;
+    top: 3%;
+    left: 41%;
+    
     height: 627px;
     width: 311px;
     background: url(pacote-d013/imagens/frame-iphone.png);
@@ -41,4 +40,25 @@ iframe#tela{
     left: 22px;
     width: 269px;
     height: 471px;
+}
+
+section#sociais img:hover{
+ border: 2px solid rgba(255, 255, 255, 0.616);
+ transform: translate(-3px,-3px);
+ box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.63);
+ transition: transform .5s, border .6s;
+   
+}
+ 
+section#sociais img{
+    width: 50px;
+    height: 50px;
+    margin: 10px;
+    border-radius: 50%;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.63);
+    box-sizing: border-box;
+
+}
+section#redes-sociais img:active {
+    transform: scale(95%);
 }
