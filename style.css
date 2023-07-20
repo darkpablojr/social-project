@@ -62,3 +62,14 @@ section#sociais img{
 section#redes-sociais img:active {
     transform: scale(95%);
 }
+footer{
+    display: inline;
+    width: 120px;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.63);
+    position: relative;
+    top: 79%;
+    left: 4%;
+  transform: translate(-4%, -31%);
+  text-decoration: underline;
+  background-color: antiquewhite;
+}
